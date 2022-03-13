@@ -41,16 +41,7 @@
             }
 
             button {
-                width: 133px;
-                height: 40px;
-                border: none;
-                border-radius: 20px;
-                background-color: $site-blue;
-                color: $site-white;
-                font-family: GillSans;
-                margin-top: 59px;
-                font-size: 15px;
-                cursor: pointer;
+                @include button;
             }
         }
     }   
