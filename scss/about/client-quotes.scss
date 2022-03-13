@@ -1,0 +1,77 @@
+.about-client {
+    max-width: $site-width;
+    margin: 0 auto;
+    margin-top: 106px;
+    margin-bottom: 179px;
+
+    h2 {
+        font-family:Proxima;
+        font-size: 40px;
+        margin: 0;
+    }
+
+    hr {
+        width: 255px;
+        height: 2px;
+        border-width: 0;
+        background-color:black;
+        margin-top: 5px;
+    }
+
+    .client-box {
+        max-width: 712px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 37px;
+        margin-top: 37px;
+
+
+        .client-photo {
+            width: 260px;
+            height: 150px;
+            margin-right: 21px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .client-text-container {
+            .client-text {
+                width: 440px;
+                margin-bottom: 20px;
+                
+                p {
+                    font-family: GillSansItalic;
+                    font-size: 16px;
+                }
+            }
+    
+            .client-name {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                font-family: Proxima;
+                font-size: 20px;
+                color: $site-blue;
+            }
+        }
+
+        
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .about-client {
+        .client-box {
+            flex-direction: column;
+            max-width: 440px;
+
+            .client-text-container {
+                margin-top: 20px;
+            }
+        }
+    }
+}

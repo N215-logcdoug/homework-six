@@ -1,0 +1,28 @@
+.tour-package-box-container {
+    max-width: $site-width;
+    height: 347px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    display: flex;
+    justify-content: space-between;
+
+    .tour-package-box {
+        width: 298px;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .tour-package-box-container {
+        flex-direction: column;
+        height: 1080px;
+        align-items: center;
+
+        .tour-package-box {
+            margin-bottom: 30px;
+        }
+    }
+}

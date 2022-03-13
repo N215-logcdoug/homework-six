@@ -1,0 +1,25 @@
+.about-main {
+    max-width: $site-width;
+    margin: 0 auto;
+    margin-top: 109px;
+
+    h1 {
+        font-family: Proxima;
+        font-size: 60px;
+        margin: 0;
+    }
+
+    hr {
+        width: 171px;
+        height: 2px;
+        border-width: 0;
+        background-color:black;
+        margin-top: 4px;
+    }
+
+    p {
+        font-family: GillSans;
+        font-size: 16px;
+        margin-top: 37px;
+    }
+}

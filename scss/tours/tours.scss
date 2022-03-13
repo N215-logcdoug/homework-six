@@ -1,0 +1,21 @@
+.tours-title {
+    max-width: $site-width;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(../images/tour/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+       font-family: ProximaThin;
+       font-size: 60px;
+       color: $site-white;
+    }
+}
